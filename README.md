@@ -4,7 +4,7 @@ Restful Express API Boilerplate
 
 Technologies:
 
-- [ ] - [Express](http://expressjs.com/)
+- [x] - [Express](http://expressjs.com/)
 
 - [ ] - [Typescript](https://www.typescriptlang.org/)
 
