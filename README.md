@@ -10,7 +10,7 @@ Technologies:
 
 - [x] - [Code Style & Lint](https://www.typescriptlang.org/)
 
-- [ ] - [Logger](https://getpino.io/#/docs/web?id=pino-with-express)
+- [x] - [Logger](https://getpino.io/#/docs/web?id=pino-with-express)
 
 - [ ] - [Validator](https://express-validator.github.io/docs/)
 

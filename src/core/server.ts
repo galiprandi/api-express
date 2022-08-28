@@ -1,5 +1,6 @@
 import express from 'express'
 import dotenv from 'dotenv'
+import { logger } from './logger'
 
 dotenv.config()
 
@@ -12,10 +13,11 @@ export function initServer() {
     res.send('<h1>🩺 Server is running fine</h1>')
   )
 
-  app.listen(serverPort, () =>
-    // eslint-disable-next-line no-console
-    console.log(
-      `🚀[server]: Server is running at http://localhost:${serverPort}/healthCheck`
-    )
-  )
+  app.listen(serverPort, () => {
+    logger.info(`----------------------------------------`)
+    logger.info(`🚀 Server is ready on port ${serverPort}`)
+    logger.info(`----------------------------------------`)
+  })
+
+  return app
 }
