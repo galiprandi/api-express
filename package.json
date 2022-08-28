@@ -1,0 +1,17 @@
+{
+  "name": "api-express",
+  "version": "1.0.0",
+  "description": "Restful Express API Boilerplate",
+  "main": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galiprandi/api-express.git"
+  },
+  "author": "Germán Aliprandi <galiprandi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/galiprandi/api-express/issues"
+  },
+  "homepage": "https://github.com/galiprandi/api-express#readme"
+}
