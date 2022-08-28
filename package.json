@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Restful Express API Boilerplate",
   "main": "./src/index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "npx nodemon ./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/galiprandi/api-express.git"
