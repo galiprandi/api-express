@@ -1,8 +1,9 @@
-const express = require('express')
-const app = express()
-require('dotenv').config()
+import express from 'express'
+import dotenv from 'dotenv'
 
-function initServer() {
+dotenv.config()
+
+export function initServer() {
   const { PORT } = process.env
   const app = express()
   const serverPort = PORT != null ? +PORT : 10000
@@ -18,5 +19,3 @@ function initServer() {
     )
   )
 }
-
-module.exports = { initServer }

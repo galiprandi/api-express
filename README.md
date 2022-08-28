@@ -6,7 +6,9 @@ Technologies:
 
 - [x] - [Express](http://expressjs.com/)
 
-- [ ] - [Typescript](https://www.typescriptlang.org/)
+- [x] - [Typescript](https://www.typescriptlang.org/)
+
+- [x] - [Code Style & Lint](https://www.typescriptlang.org/)
 
 - [ ] - [Logger](https://getpino.io/#/docs/web?id=pino-with-express)
 
